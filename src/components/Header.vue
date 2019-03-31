@@ -27,6 +27,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 color: #fff;
+z-index: 1;
 }
 
 #logo {

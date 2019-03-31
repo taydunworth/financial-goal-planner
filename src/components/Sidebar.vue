@@ -24,6 +24,7 @@ export default {
   height: calc(100vh - 70px);
   color: #8f949c;
   padding: 20px;
+  box-shadow: 0 3px 30px rgba(0, 0, 0, .25);
 }
 
 #sidebar ul {
@@ -33,8 +34,8 @@ export default {
 }
 
 #sidebar ul li {
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
   border-bottom: 1px solid #414956;
   transition: .3s color ease-in-out;
 }
