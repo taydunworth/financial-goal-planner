@@ -1,14 +1,14 @@
 <template>
-    <div id="header">
-      <div id="logo">
-        <i class="fas fa-search-dollar"></i>
-        <h1>money<span>wise</span></h1>
-      </div>
-      <div id="user-info">
-          <img src="https://via.placeholder.com/30">
-          <span>Taylor Cox</span>
-      </div>
+  <div id="header">
+    <div id="logo">
+      <i class="fas fa-search-dollar"></i>
+      <h1>money<span>wise</span></h1>
     </div>
+    <div id="user-info">
+        <img src="https://via.placeholder.com/30">
+        <span>Taylor Cox</span>
+    </div>
+  </div>
 </template>
 
 <script>
