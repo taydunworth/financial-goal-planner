@@ -18,6 +18,7 @@
         <li><i class="far fa-credit-card"></i> Integrate with Bank</li>
         <li><i class="fas fa-chart-bar"></i> Track Progress</li>
         <li><i class="fas fa-piggy-bank"></i>Savings Analysis</li>
+        <li><i class="far fa-arrow-alt-circle-left"></i> Sign Out</li>
       </ul>
     </div>
   </div>
@@ -83,10 +84,11 @@ body {
 
 #sidebar {
   background-color: #1F2838;
-  width: 22%;
+  width: 275px;
   height: calc(100vh - 70px);
   color: #8f949c;
   padding: 20px;
+
 }
 
 #sidebar ul {
