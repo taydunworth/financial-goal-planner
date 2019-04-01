@@ -21,7 +21,7 @@ export default {
     border-radius: 10px;
     padding: 15px;
     color: #fff;
-    height: 50vh;
+    min-height: 50vh;
 }
 
 #stock-insight p {
