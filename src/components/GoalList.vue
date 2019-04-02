@@ -94,7 +94,7 @@ export default {
 
 .utility-icons {
     display: flex;
-    width: 5%;
+    width: 6%;
     justify-content: space-between;
     font-size: 1.1em;
     color: #8f949c;

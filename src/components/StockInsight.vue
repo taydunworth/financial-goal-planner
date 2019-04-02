@@ -21,9 +21,26 @@
 </template>
 
 <script>
+import axios from 'axios'
+
+axios.defaults.baseURL = "https://cloud-sse.iexapis.com/";
+
 export default {
-  name: 'StockInsight'
+    components: {
+        name: 'StockInsight'
+    },
+    created() {
+        axios
+            .get("beta/sector-performance?token=YOUR_TOKEN&symbols=spy")
+            .then(response => {
+            console.log(response);
+            })
+            .catch(error => {
+            console.log(error);
+            });
+    }
 }
+
 </script>
 
 <style scoped>
