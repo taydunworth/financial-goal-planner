@@ -20,7 +20,7 @@ export default {
 <style scoped>
 #sidebar {
   background-color: #1F2838;
-  width: 275px;
+  width: 250px;
   height: calc(100vh - 70px);
   color: #8f949c;
   padding: 20px;

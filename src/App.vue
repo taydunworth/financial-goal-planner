@@ -51,7 +51,7 @@ body {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 h2 {
@@ -70,8 +70,8 @@ p, li {
 }
 
 .content-body {
-  padding: 20px;
-  width: calc(100% - 275px);
+  padding: 10px 20px;
+  width: calc(100% - 250px);
 }
 
 .intro {
