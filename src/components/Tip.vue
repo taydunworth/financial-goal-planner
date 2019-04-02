@@ -1,13 +1,22 @@
 <template>
     <div id="financial-tip">
         <h2>Financial Saving Tip</h2>
-        <p>Tincidunt diam. Vivamus in est at justo euismod egestas. Duis convallis et quam ac interdum.</p>
+        <p>{{finTips[Math.floor(Math.random() * finTips.length)]}}</p>
     </div>
 </template>
 
 <script>
+import { FinTips } from "../data/fintips";
+
 export default {
-  name: 'Tip'
+    components: {
+        name: 'Tip'
+    },
+    data() {
+      return {
+        finTips: FinTips
+      };
+    }
 }
 </script>
 
