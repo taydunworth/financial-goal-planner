@@ -94,4 +94,14 @@ p, li {
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (max-width: 1000px) {
+  .content-inner-body {
+    flex-direction: column;
+  }
+
+  .left-side, .right-side {
+    width: 100%;
+  }
+}
 </style>
